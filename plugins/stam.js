@@ -1,4 +1,4 @@
-Asena.addCommand({pattern: 'stam$', fromMe: true, desc: stag_dsc }, (async (message, match) => {
+addCommand({pattern: 'stam$', fromMe: true, desc: stag_dsc }, (async (message, match) => {
 if (!message.reply_message) return await message.client.sendMessage(message.jid, Slang.NEED_REPLY, MessageType.text) grup = await message.client.groupMetadata(message.jid);
 var jids mesaj = '';
 [];
